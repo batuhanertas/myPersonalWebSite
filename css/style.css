@@ -1,0 +1,667 @@
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.be_h3_block { /* Bu yazilarin altindaki cizgi */
+    margin: 0 auto 10px auto;
+    height: 5px;
+    width: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background: #fff;
+}
+
+.be_page {
+    background: #fff;
+}
+
+#Contact h3, #AboutMe h3, #Welcome_Page h3 {
+    color: #fff;
+}
+
+a, header #be_contact_icon .be_contact_icon {
+    
+    color: #333; /* burayi bi dusun! */
+}
+
+header nav ul li a {
+    color: #bbb;
+}
+
+header nav ul li a:hover, header #be_contact_icon .be_contact_icon:hover {
+    color: #ff8800;
+}
+
+p, header nav ul li {
+    font-family: Arial, sans-serif;
+    
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 100px auto 0 auto;
+    font-size: 50px;
+}
+
+header, header #be_contact_icon, #be_contact_icon .be_contact_icon, header nav ul li a, header nav ul, header #be_logo, header #be_contact_icon .be_contact_icon span {
+    transition: all 300ms;
+    -moz-transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -o-transition: all 300ms;
+}
+
+.be_page {
+    widows: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+
+/* ##############
+
+    Header
+
+################ */
+
+header {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    font-weight: 500;
+}
+
+header #be_logo {
+    float: left;
+    width: 200px;
+    margin: 4px 0 0 8px;
+    font-family: 'Overlock', cursive;
+    font-size: 23px;
+    
+}
+
+header #be_logo a {
+    color: #bbb;
+}
+
+header #be_logo a:hover {
+    color: #ff8800;
+}
+
+
+
+
+header nav {
+    float: right;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul {
+    margin: 12px 8px 0 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px 0 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    font-size: 13px;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+header:hover {
+    /* think about this part! */
+    background: #eee;
+    
+}
+
+header #up-arrow a img {
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    z-index: 99;
+    bottom: 5%;
+    right: 3%;
+    border-radius: 360px;
+    border: 1px solid #fff;
+    
+}
+
+
+/* ##############
+
+    Welcome Page
+
+################ */
+
+
+
+
+#Welcome_Page {
+    background: url(../images/main.jpg); 
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+#Welcome_Page .be_button {
+    color: #f7c360;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 30px 10px 30px;
+    display: inline-block;
+    margin: 5px 0 20px 50px;
+    font-family: Arial, sans-serif;
+    border: 2px solid #f7c360;
+}
+
+#Welcome_Page .be_button:hover {
+    color: #ff8800;
+    border: 2px solid #ff8800;
+}
+
+#Welcome_Page .be_h3_block {
+    background: #f7c360;
+    margin: 0 0 20px 50px;
+}
+
+#Welcome_Page h3 {
+    text-align: left;
+    margin: 250px 0 0 50px;
+    font-size: 80px;
+    line-height: 110px;
+    color: #f7c360;
+}
+
+#paragraphTemp {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0 0 20px 50px;
+    opacity: 0;
+}
+
+#Welcome_Page #paragraph {
+    color: #fff;
+    background-color:rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin: 0 0 20px 50px;
+    opacity: 1;
+    max-width: 300px;
+    
+}
+
+
+/* ##############
+
+    About Me
+
+################ */
+
+#AboutMe {
+   /* background: url('../images/wood-8196_1920.jpg'); */
+    background: #F2B738;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#AboutMe #AboutMe_img {
+    margin: 200px auto 50px auto;
+    width: 300px;
+    height: 300px;
+    
+}
+
+#AboutMe #AboutMe_img .round-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 360px;
+    -moz-border-radius: 360px;
+    -webkit-border-radius: 360px;
+    position:relative;
+}
+
+#AboutMe #AboutMe_paragraph {
+    margin: 10px 20%;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* ##############
+
+    Contact Page
+
+################ */
+
+
+
+#Contact {
+    position: relative;
+    background: url(../images/desk-1220052_1920.jpg); 
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#Contact h3 {
+    margin: 100px auto 0 auto;
+}
+
+#Contact .be_h3_block {
+    background: #fff;
+    margin: 0 0 20px 50px;
+    text-align: center;
+    margin: auto; 
+    
+}
+
+#Contact .be_contact {
+    width: 100%;
+    text-align: center;
+}
+
+#Contact .be_contact ul {
+    margin 150px 0 0 0;
+    padding: 0;
+}
+
+#Contact .be_contact ul li {
+    margin: 0 0 15px 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+#Contact .be_contact ul li a {
+    text-decoration: underline;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+form {
+    max-width: 450px;
+    margin: 0 auto 50px;
+}
+
+form input {
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+
+form .contact-info-group label {
+    width: 48%;
+    margin-right: 2%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 20px;
+    float: left;
+}
+
+form span {
+    display: block;
+}
+
+form textarea {
+    
+    height: 100px;
+    width: 250px;
+    margin-left: 40%;
+    font-family: Arial, sans-serif;
+}
+
+
+
+form #send-button {
+    width: 100px;
+    margin: 28% auto auto -85px;
+    font-family: Arial, sans-serif;
+    
+}
+
+#Contact .social-media {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#Contact .social-media ul {
+    list-style: none; 
+    position: relative; 
+    float: left; 
+    display: block; 
+    left: 44%;
+    top: -40px;
+    
+    
+}
+
+#Contact .social-media ul li {
+    position: relative; 
+    float: left; 
+    display: block; 
+    right: 48%;
+   
+    
+    
+}
+
+#Contact .social-media ul li img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    
+}
+
+/* ##############
+
+    Footer
+
+################ */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+}
+
+
+
+/* ###############
+
+    Fun Page
+############### */
+
+@-webkit-keyframe starPulse {
+    from { opacity: 1;  }
+    to { opacity: 0.2; }
+}
+
+@-moz-keyframes starPulse {
+    from { opacity: 1;  }
+    to { opacity: 0.2; }
+}
+
+@-o-keyframes starPulse {
+    from { opacity: 1;  }
+    to { opacity: 0.2; }
+}
+
+@keyframes starPulse {
+    from { opacity: 1;  }
+    to { opacity: 0.2; }
+}
+
+@-webkit-keyframes sunFire {
+    from {
+        -webkit-box-shadow: 0 0 50px #f5c01a;
+        -moz-box-shadow: 0 0 50px #f5c01a;
+        -o-box-shadow: 0 0 50px #f5c01a;
+        box-shadow: 0 0 50px #f5c01a;
+    }
+    
+    to {
+        -webkit-box-shadow: 0 0 50px #f5c01a;
+        -moz-box-shadow: 0 0 50px #f5c01a;
+        -o-box-shadow: 0 0 50px #f5c01a;
+        box-shadow: 0 0 50px #f5c01a;
+    }
+    
+}
+
+@-moz-keyframes sunFire {
+    from {
+        -webkit-box-shadow: 0 0 50px #f5c01a;
+        -moz-box-shadow: 0 0 50px #f5c01a;
+        -o-box-shadow: 0 0 50px #f5c01a;
+        box-shadow: 0 0 50px #f5c01a;
+    }
+    
+    to {
+        -webkit-box-shadow: 0 0 50px #f5c01a;
+        -moz-box-shadow: 0 0 50px #f5c01a;
+        -o-box-shadow: 0 0 50px #f5c01a;
+        box-shadow: 0 0 50px #f5c01a;
+    }
+    
+}
+
+@-o-keyframes sunFire {
+    from {
+        -webkit-box-shadow: 0 0 50px #f5c01a;
+        -moz-box-shadow: 0 0 50px #f5c01a;
+        -o-box-shadow: 0 0 50px #f5c01a;
+        box-shadow: 0 0 50px #f5c01a;
+    }
+    
+    to {
+        -webkit-box-shadow: 0 0 50px #f5c01a;
+        -moz-box-shadow: 0 0 50px #f5c01a;
+        -o-box-shadow: 0 0 50px #f5c01a;
+        box-shadow: 0 0 50px #f5c01a;
+    }
+    
+}
+
+@keyframes sunFire {
+    from {
+        -webkit-box-shadow: 0 0 50px #f5c01a;
+        -moz-box-shadow: 0 0 50px #f5c01a;
+        -o-box-shadow: 0 0 50px #f5c01a;
+        box-shadow: 0 0 50px #f5c01a;
+    }
+    
+    to {
+        -webkit-box-shadow: 0 0 50px #f5c01a;
+        -moz-box-shadow: 0 0 50px #f5c01a;
+        -o-box-shadow: 0 0 50px #f5c01a;
+        box-shadow: 0 0 50px #f5c01a;
+    }
+    
+}
+
+@-webkit-keyframes spin {
+    from { transform: rotate(0); }
+    to { transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin {
+    from { transform: rotate(0); }
+    to { transform: rotate(360deg); }
+}
+
+@-o-keyframes spin {
+    from { transform: rotate(0); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    from { transform: rotate(0); }
+    to { transform: rotate(360deg); }
+}
+
+#universe {
+    position: relative;
+    background: black;
+    background: -webkit-radial-gradient(#555, #000);
+    background: -moz-radial-gradient(#555, #000);
+    background: -o-radial-gradient(#555, #000); /*for old versions of Opera */
+    background: radial-gradient(#555, #000);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#stars {
+    position: relative;
+    z-index: 20; 
+    height: 100%;
+    width: 100%;
+    background: url('../images/stars.png');
+    
+    -webkit-animation: starPulse 4s infinite alternate;
+    -moz-animation: starPulse 4s infinite alternate;
+    -o-animation: starPulse 4s infinite alternate;
+    animation: starPulse 4s infinite alternate;
+}
+
+#sun {
+    position: absolute;
+    z-index: 4;
+    margin-top: -100px;
+    margin-left: -100px;
+    top: 50%;
+    left: 50%;
+    height: 200px;
+    width: 200px;
+    
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    
+    background: orange;
+    background: -webkit-radial-gradient(#f5c313, #ec7e08);
+    background: -moz-radial-gradient(#f5c313, #ec7e08);
+    background: -o-radial-gradient(#f5c313, #ec7e08); /*for old versions of Opera */
+    background: radial-gradient(#f5c313, #ec7e08);
+    
+    -webkit-box-shadow: 0 0 50px #f5c91a;
+    -moz-box-shadow: 0 0 50px #f5c91a;
+    -o-box-shadow: 0 0 50px #f5c91a;
+    box-shadow: 0 0 50px #f5c91a;
+    
+    -webkit-animation: sunFire 4s infinite alternate;
+    -moz-animation: sunFire 4s infinite alternate;
+    -o-animation: sunFire 4s infinite alternate;
+    animation: sunFire 4s infinite alternate;
+}
+
+#earthOrbit {
+   
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -300px;
+    z-index: 4;
+    
+    height: 700px;
+    width: 600px;
+    
+    /* make it circle */
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    
+    -webkit-animation: spin 30s linear infinite;
+    -moz-animation: spin 30s linear infinite;
+    -o-animation: spin 30s linear infinite;
+    animation: spin 30s linear infinite;
+}
+
+#earth {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 75px;
+    height: 75px;
+    margin-top: -40px;
+    
+    -webkit-animation: spin 6s linear infinite;
+    -moz-animation: spin 6s linear infinite;
+    -o-animation: spin 6s linear infinite;
+    animation: spin 6s linear infinite;
+
+}
+
+#moonOrbit {
+    
+    
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    left: -20px;
+    margin-top: -60px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    
+    -webkit-animation: spin 4s linear infinite reverse;
+    -moz-animation: spin 4s linear infinite reverse;
+    -o-animation: spin 4s linear infinite reverse;
+    animation: spin 4s linear infinite reverse;
+
+}
+
+#moon {
+    height: 20px;
+    width: 20px;
+    
+    background: gray;
+    background: -webkit-radial-gradient(#ddd, #888);
+    background: -moz-radial-gradient(#ddd, #888);
+    background: -o-radial-gradient(#ddd, #888);
+    background: radial-gradient(#ddd, #888);
+    
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    
+}
+
+
+
+
+
+
+
+
