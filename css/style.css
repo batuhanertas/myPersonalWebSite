@@ -8,7 +8,7 @@ body, html {
     height: 100%;
 }
 
-.be_h3_block { /* Bu yazilarin altindaki cizgi */
+.be_h3_block { 
     margin: 0 auto 10px auto;
     height: 5px;
     width: 80px;
@@ -32,7 +32,7 @@ footer {
 
 a, header #be_contact_icon .be_contact_icon {
     
-    color: #333; /* burayi bi dusun! */
+    color: #333; 
 }
 
 header nav ul li a {
@@ -193,7 +193,7 @@ header #up-arrow a img {
 
 #Welcome_Page h3 {
     text-align: left;
-    margin: 250px 0 0 50px;
+    margin: 150px 0 0 50px;
     font-size: 80px;
     line-height: 110px;
     color: #f7c360;
@@ -208,7 +208,7 @@ header #up-arrow a img {
 
 #Welcome_Page #paragraph {
     color: #fff;
-    background-color:rgba(0, 0, 0, 0.1);
+    background-color:rgba(0, 0, 0, 0.2);
     font-family: Arial, sans-serif;
     margin: 0 0 20px 50px;
     opacity: 1;
@@ -233,7 +233,7 @@ header #up-arrow a img {
 }
 
 #AboutMe #AboutMe_img {
-    margin: 200px auto 50px auto;
+    margin: 150px auto 50px auto;
     width: 300px;
     height: 300px;
     
@@ -369,7 +369,7 @@ form #send-button {
     position: relative; 
     float: left; 
     display: block; 
-    left: 44%;
+    left: 47%;
     top: -40px;
     
     
